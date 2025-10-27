@@ -1,5 +1,5 @@
 streamlit
+ifcopenshell
 pandas
 openpyxl
-st-aggrid
-ifcopenshell
+streamlit-aggrid
