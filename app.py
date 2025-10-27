@@ -9,8 +9,8 @@ from openpyxl import Workbook
 # --------------------------------------------------
 # CONFIGURACIÓN BÁSICA
 # --------------------------------------------------
-st.set_page_config(page_title="🧱 Explorador IFC — AOPJA", layout="wide")
-st.title("🧱 Explorador IFC — AOPJA")
+st.set_page_config(page_title="🧱 Explorador IFC", layout="wide")
+st.title("🧱 Explorador IFC")
 st.caption("Analiza y exporta propiedades desde archivos IFC")
 
 # --------------------------------------------------
@@ -139,3 +139,4 @@ if uploaded_files:
 
 else:
     st.info("Sube uno o varios archivos IFC para comenzar la exploración.")
+
