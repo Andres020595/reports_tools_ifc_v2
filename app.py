@@ -67,7 +67,7 @@ if uploaded_files:
 
         matrix_df = pd.DataFrame(unique_lists_by_file)
 
-        st.subheader("📁 Valores únicos por archivo IFC (formato de matriz)")
+        st.subheader("📁 Valores únicos por archivo IFC")
         gbm = GridOptionsBuilder.from_dataframe(matrix_df)
         gbm.configure_default_column(
             resizable=True, wrapText=True, autoHeight=True, sortable=True, filter=True
@@ -139,4 +139,5 @@ if uploaded_files:
 
 else:
     st.info("Sube uno o varios archivos IFC para comenzar la exploración.")
+
 
